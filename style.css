@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:0.5rem 5rem;
+    box-shadow: 2px 2px 5px 2px grey;
+    background-color: black;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    font-weight:bolder;
+    color: rgb(212, 40, 69) !important;
+    text-shadow:1px 1px 1px
+}
+
+#navbarSupportedContent a{
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+    
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom:3px solid rgb(212, 40, 69) ;
+    
+}
+
+#navbarSupportedContent button{
+    background-color:  rgb(212, 40, 69);
+    color: black;
+    font-weight: 800;
+     
+}
+
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+background-image: url(" https://funylife.in/wp-content/uploads/2022/12/30_Whatsapp-Dp-images-FunyLife.in_-1024x1024.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#home h1{
+    font-weight: 700;
+    text-shadow:2px 2px 2px grey;
+}
+
+#about{
+    background-image: linear-gradient(to bottom right, rgb(97, 186, 97), yellow);
+}
+
+#about h1{
+    font-weight: bolder;
+}
+
+#about p{
+    font-weight: 600;
+}
+
+#product{
+    background: rgb(194, 191, 191);
+}
+
+
+#product h1{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+#product img{
+    width:250px;
+    height:200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    
+}
+
+.card{
+    width:250px;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin{
+    background-color: rgb(212, 40, 69) !important;
+    color:white !important;
+    box-shadow: 2px 4px 5px black;
+}
+
+#contact, footer{
+    background-color: rgb(237, 197, 197);
+}
+
+input, textarea, button{
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(237, 197, 197);
+    text-align: center;
+   padding-bottom: 20px;
+}
